@@ -1,7 +1,7 @@
 MPClub - Club Management System
 
 Think of this project as a small digital clubhouse.
-It doesn’t have all the bells and whistles of modern frameworks, but it shows how the classic Java web stack — Servlets, JSP, JDBC, and Tomcat — can come together to build something real.
+It doesn’t have all the bells and whistles of modern frameworks, but it shows how the classic Java web stack - Servlets, JSP, JDBC, and Tomcat - can come together to build something real.
 
 ✨ What you can do here
 
