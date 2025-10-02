@@ -1,45 +1,51 @@
 MPClub - Club Management System
 
-This project started as a way to learn Java web development using Servlets, JSP, and JDBC, and it grew into a small but functional club management portal. It’s not trying to be a big production system — it’s a hands-on project that shows how the moving pieces of a Java web app come together.
+Think of this project as a small digital clubhouse.
+It doesn’t have all the bells and whistles of modern frameworks, but it shows how the classic Java web stack — Servlets, JSP, JDBC, and Tomcat — can come together to build something real.
 
-What it does
+✨ What you can do here
 
-Lets new members register with details like name, email, phone, program, and year.
+📝 Register as a member with your details (name, email, program, year).
 
-Provides an admin view to display, edit, or remove members.
+📖 Browse and add books to a simple catalog.
 
-Keeps track of a small book catalog (add books, display books, update quantities).
+👥 Admin view to display, edit, or remove members.
 
-Uses MySQL (via JDBC connection pooling) for member data and a simple text file for books.
+❌ Error handling with a dedicated error page when things go wrong.
 
-How it’s built
+🛠 How it’s built
 
-Backend: Java Servlets + JDBC for database access
+Backend → Java Servlets handling requests & business logic
 
-Frontend: JSP pages with basic CSS and shared templates (banner, footer)
+Frontend → JSP pages + a touch of CSS for layout
 
-Database: MySQL (with option to plug in H2 for testing)
+Database → MySQL for members, text file storage for books
 
-Testing: JUnit tests for the data layer
+Testing → JUnit tests for database operations
 
-Server: Runs on Apache Tomcat (classic WAR deployment)
+Deployment → Runs on Apache Tomcat as a WAR file
 
-Why it’s interesting
+🚀 Why it matters
 
-This project is a nice snapshot of “classic” Java EE-style development: JSPs for views, Servlets for controllers, and JDBC for persistence. It forced me to think about request handling, error pages, database connections, and how to make code a little less messy with a simple MVC-ish structure.
+This app was my way of understanding the nuts and bolts of Java web apps. Instead of relying on frameworks, it gets into the raw details: managing database connections, handling form submissions, forwarding requests, and stitching JSPs together.
 
-How to try it
+It’s not just “yet another CRUD app” — it’s my hands-on attempt at wiring up the moving parts of a real web application.
 
-Clone the repo and open it in NetBeans/IntelliJ (it has Ant build scripts).
+▶️ How to run it
 
-Set up a MySQL database called memberdb (you can change this in context.xml).
+Clone the repo.
 
-Deploy the WAR to Tomcat.
+Create a MySQL database named memberdb (or adjust context.xml).
 
-Visit http://localhost:8080/MPClub and explore:
+Deploy the project to Tomcat.
 
-/MPRegister.jsp → register a new member
+Open http://localhost:8080/MPClub
+.
 
-/MPMemberAdmin?action=displayMembers → manage members
+Pages to explore:
 
-/MPDisplayBooks → view the book catalog
+/MPRegister.jsp → Register a new member
+
+/MPMemberAdmin?action=displayMembers → Manage members
+
+/MPDisplayBooks → View the book catalog
