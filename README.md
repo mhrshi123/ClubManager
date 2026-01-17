@@ -3,15 +3,15 @@ MPClub - Club Management System
 Think of this project as a small digital clubhouse.
 It doesn’t have all the bells and whistles of modern frameworks, but it shows how the classic Java web stack - Servlets, JSP, JDBC, and Tomcat - can come together to build something real.
 
-✨ What you can do here
+What you can do here
 
-📝 Register as a member with your details (name, email, program, year).
+- Register as a member with your details (name, email, program, year).
 
-📖 Browse and add books to a simple catalog.
+- Browse and add books to a simple catalog.
 
-👥 Admin view to display, edit, or remove members.
+- Admin view to display, edit, or remove members.
 
-❌ Error handling with a dedicated error page when things go wrong.
+- Error handling with a dedicated error page when things go wrong.
 
 🛠 How it’s built
 
